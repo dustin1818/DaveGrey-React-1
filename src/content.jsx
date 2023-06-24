@@ -24,7 +24,7 @@ const Content = () => {
   };
 
   return (
-    <main>
+    <>
      {/* update name section  */}
       <h3 onDoubleClick={handleClick} style={marginBottom}>
         Hi {name}!
@@ -39,7 +39,7 @@ const Content = () => {
         Click me!
       </button>
       <button onClick={(e) => handleClickWithParam(e)}>Click me!</button>
-    </main>
+    </>
   );
 };
 
